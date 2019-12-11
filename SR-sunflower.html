@@ -27,6 +27,32 @@
                ></a-image>
       
     </a-marker-camera>
+
+
+    <a-marker-camera id="comfortwomen" preset="kanji">
+     <a-entity 
+            text="value: Don't believe this article"
+               scale="14 60 1"
+               position="6 0 -0.6" material="color: red; opacity: 1"
+               rotation="-90 0 0"
+               >
+               
+        </a-entity>     
+    </a-marker-camera>
+
+     <a-marker-camera id="yoshida" type="pattern" url="https://cdn.glitch.com/9852db6f-79b5-49c6-9a7a-0f8e7ad5341d%2Fpattern-AR-marker3.patt?v=1574366681369">
+     <a-entity 
+            text="value: FAKENEWS"
+               scale="40 70 1"
+               position="18.5 0 -2 " material="opacity: 1"
+               rotation="-90 0 0"
+               animation="property: position; to: 18.5 0 -4; from: 18.5 0 -1; dur: 1000; dir: alternate; loop: true"
+               >
+               
+        </a-entity>     
+      
+    </a-marker-camera>
+
 <!--     <a-camera gps-camera rotation-reader></a-camera> -->
     <a-entity camera>
   </a-entity>
